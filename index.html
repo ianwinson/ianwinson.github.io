@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<title>Ian Winson</title>
+<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <body>
+      <style>
+      body{
+        background-color:  #EDEEEF;
+      }
+         #header{
+            width:100%;
+                }
+         #container {
+            position: relative;
+                    }
+         #text {
+            z-index: 100;
+            position: absolute;
+            font-size: 20px;
+            left: 50%;
+            height:50px;
+            width: 15%;
+            top: 30px;
+
+         }
+         button{
+           font: black;background-color: white; border-radius: 2px; border: 2px; padding: 0; font-family: 'Open Sans', sans-serif;
+
+  background: none;  font-size: 2px;
+         }
+         button:hover {color:white; font: white; border-radius: 5px; border: 2; cursor: pointer;
+         }
+         #text, #text1, #text2, #text3{
+           color:black;
+              /*font-family: 'Open Sans', sans-serif;*/
+         }
+         #text:hover, #text1:hover, #text2:hover, #text3:hover{
+           color:#EEEEEE;
+         }
+         #text1 {
+           z-index: 100;
+           position: absolute;
+           font-size: 20px;
+
+           top: 30px;
+           width: 10%;
+           height: 50px;
+           left: 65%;
+         }
+         #text2 {
+           z-index: 100;
+           position: absolute;
+           font-size: 20px;
+          left: 75%;
+          top: 30px;
+          height: 50px;
+          width: 15%;
+         }
+         #text3 {
+           z-index: 100;
+           position: absolute;
+           font-size: 20px;
+          left: 90%;
+          top: 30px;
+          height: 50px;
+          width: 10%;
+         }
+         button{
+           background: transparent;
+
+         }
+         #AbM, #Contact, #CM{
+           font-family: 'EB Garamond', serif;
+
+            background-color:#FFFFFF;
+         }
+         #PW{
+           background-color:#EDEEEF;
+           font-family: 'Open Sans', sans-serif;
+         #AbT{
+
+             background-color:#EDEEEF;
+
+
+         }
+         #ABM{
+           width: 60%;
+           font-family: 'Open Sans', sans-serif;
+         }
+         #CM{
+           margin-left: 40%;
+           font-family: 'Open Sans', sans-serif;
+         }
+         #te{
+           border-bottom: 1px solid #000;
+           font-family: 'Open Sans', sans-serif;
+           display: inline;
+           left:40%
+         }
+         #AbT, #AbM, #PW, #Contact{
+font-family: 'EB Garamond', serif;
+color: #2F2F2F
+}
+#ABM, #PWW, #te{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.category {
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+
+}
+#ttt{
+  left: 200px;
+  padding-left: 200px;
+}
+#abs, #aa{
+  display: inline-block;
+
+}
+
+#content{
+         width: 60%;
+         display: block;
+         height: auto;
+          background-color:#EDEEEF;
+     }
+     #content > img{
+        float: center; width: 25%;
+        height: auto;
+        margin: 5px 30px;
+     }
+     #te{
+       width:40%
+     }
+}
+      </style>
+      <header style="overflow:hidden; margin:0">
+
+         <div id ="container" >
+            <center> <img src ="http://s29.postimg.org/7mkcmthfb/Ian_Winson.jpg" width = "100%"></img></center>
+            <font color = "#2F2F2F" size= "5" ><button id="text" align="right" onClick="document.getElementById('ABT').scrollIntoView();" > ABOUT THIS WEBSITE</button>
+            <button id="text1" align="right" onClick="document.getElementById('ABM').scrollIntoView();"> ABOUT ME</button>
+            <button id="text2" align="right" onClick="document.getElementById('PW').scrollIntoView();">PROGRAMMING WORK</button>
+            <button id="text3" align="right" onClick="document.getElementById('Contact').scrollIntoView();">CONTACT</button>
+            </font>
+         </div>
+      </header>
+
+      <center>
+        <div id = "AbT">
+          <font color= "#2F2F2F" face="Garamond">
+            <br><br>
+
+          <h1>About This Website</h1>
+      
+          <div id="ABM">
+          </font>
+            <font face="Open Sans">
+          <p>This Website was started in Early March 2016, and I intend for it to be my platform to post updates,
+            recent coding projects, resumes, and more. I am self taught in HTML, so my apologies if there area
+            any bugs
+           </p>
+           <br><br>
+         </font>
+
+        </div>
+        </div>
+      </center>
+
+
+      <center>
+        <div id = "AbM" background-colo="pink">
+          <font color= "#2F2F2F" face="Garamond">
+            <br><br>
+
+          <h1>About Me</h1>
+          <div id="ABM">
+          </font>
+            <font face="Open Sans">
+          <p>I'm a sophomore at Jesuit College Preperatory School in Dallas Texas(As of Early 2016).
+            I have been programming for ~2 years, and mainly know Java. I have made a few apps for android, none of which have been released.
+             I also have done some work programming for my FTC Robotics team, 9157. I am also a member of FRC team 2848.
+           </p>
+           <br><br>
+         </font>
+
+        </div>
+
+      </center>
+      <center>
+        <div id="PW">
+          <font color= "#2F2F2F" face="Garamond">
+          <h1>Programming Work</h1>
+          <div id="PWW">
+            <font face="Open Sans">
+          <p>As previously mentioned, I mainly know Java, and this is my first big project in HTML.
+              I have made Java apps including:<br>
+              <div id="te">
+              <p id="abs" align="left">Basic Calculator</p>
+              <p id="aa" align="right" >Advanced Calculator</p>
+            </div>
+          </div>
+              <div id="content">
+   <img src="http://oi67.tinypic.com/2w50waa.jpg" alt="" width="20%"/>
+
+   <img src="http://oi68.tinypic.com/aax9vo.jpg" alt="" width="20%" />
+
+
+</div>
+
+</div>
+      </center>
+        </font>
+        <center>
+          <div id = "Contact">
+            <font color= "#2F2F2F" face="Garamond">
+              <br><br>
+
+            <h1>Contact Me</h1>
+            <div id="ABM">
+            </font>
+              <font face="Open Sans">
+
+            <p>If you are looking to contact me, please do it through the provided links below.<br>
+
+              <b>Questions</b><br>
+            Email: <a href="iankwinson@gmail.com">iankwinson@gmail.com</a><br>
+            <b>Social Media:</b><br>
+             Instagram: <a href="https://www.instagram.com/ianwinz/" >@ianwinz</a><br>
+            Twitter: <a href="https://twitter.com/ianwinz">@ianwinz</a>
+
+            </div>
+
+             </p>
+             <br><br>
+           </font>
+ </center>
+          </div>
+          </div>
+
+   </body>
+   <script src="main.js"></script>
+</html>
