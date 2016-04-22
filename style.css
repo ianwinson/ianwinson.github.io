@@ -1,0 +1,275 @@
+body {
+background-color:#EDEEEF;
+}
+
+#header {
+width:100%;
+}
+
+#container {
+position:relative;
+}
+
+#text {
+z-index:100;
+position:absolute;
+font-size:20px;
+left:50%;
+height:50px;
+width:15%;
+top:30px;
+}
+
+#text,#text1,#text2,#text3 {
+background-color:#FFF;
+border-radius:2px;
+border:2px;
+/*font-family:'Open Sans', sans-serif;*/
+font-family: 'Oswald', sans-serif;
+background:none;
+color:#A4A4A4;
+padding:0;
+}
+
+button {
+background:none;
+border-radius:2px;
+border:2px;
+cursor:pointer;
+}
+
+#text:hover,#text1:hover,#text2:hover,#text3:hover {
+color:#EEE;
+}
+
+#text1 {
+z-index:100;
+position:absolute;
+font-size:20px;
+top:30px;
+width:10%;
+height:50px;
+left:65%;
+}
+
+#text2 {
+z-index:100;
+position:absolute;
+font-size:20px;
+left:75%;
+top:30px;
+height:50px;
+width:15%;
+}
+
+#text3 {
+z-index:100;
+position:absolute;
+font-size:20px;
+left:90%;
+top:30px;
+height:50px;
+width:10%;
+}
+
+#AbM,#Contact,#CM {
+font-family:'EB Garamond', serif;
+background-color:#FFF;
+}
+
+#PW {
+background-color:#EDEEEF;
+font-family:'Open Sans', sans-serif;
+#abtbackground-color:#EDEEEF;
+}
+
+#ABM {
+width:60%;
+font-family:'Open Sans', sans-serif;
+}
+
+#CM {
+margin-left:40%;
+font-family:'Open Sans', sans-serif;
+}
+
+#te {
+border-bottom:1px solid #000;
+font-family:'Open Sans', sans-serif;
+display:inline;
+left:40%;
+width:40%;
+}
+
+#AbT,#AbM,#PW,#Contact {
+font-family:'EB Garamond', serif;
+color:#2F2F2F;
+}
+
+#ABM,#PWW,#te {
+font-family:'Open Sans', sans-serif;
+}
+
+.category {
+position:relative;
+display:inline-block;
+float:left;
+padding:10px;
+}
+
+#ttt {
+left:200px;
+padding-left:200px;
+}
+
+#abs,#aa {
+display:inline-block;
+}
+
+#content {
+display:block;
+height:auto;
+background-color:#EDEEEF;
+}
+
+#content > img {
+float:center;
+width:15%;
+height:auto;
+display:block;
+margin:5px 30px;
+}
+
+#c1:hover,#c2:hover {
+-webkit-filter:brightness(50%);
+opacity:100%;
+}
+
+#BBB:hover ~ #c1 {
+-webkit-filter:brightness(50%);
+}
+
+#BBB {
+position:absolute;
+font-size:20px;
+color:transparent;
+top:1375px;
+width:10%;
+height:50px;
+left:36%;
+opacity:0;
+}
+
+#B2 {
+color:#FFF;
+font-size:20px;
+font-family:'EB Garamond', serif;
+}
+
+#all {
+position:absolute;
+width:100%;
+top:20%;
+left:0;
+font-size: 30px;
+}
+
+#QU {
+position:absolute;
+width:50%;
+top:60%;
+left:25%;
+font-size: 25px;
+color: transparent;
+font-family: 'Oswald', sans-serif;
+}
+
+#Cal1 {
+color:transparent;
+font-family: 'Oswald', sans-serif;
+}
+
+#onboard {
+width:15%;
+float:center;
+display:block;
+height:400px;
+background:url(http://oi67.tinypic.com/2w50waa.jpg) 50% 0 no-repeat;
+background-size:cover;
+position:relative;
+}
+
+#onboard:hover {
+background:url(http://s31.postimg.org/jvev2swcb/2w50waa_1.png) 50% 0 no-repeat;
+background-size:cover;
+}
+
+#onboard:hover>#Cal1 {
+color:#FFF;
+}
+
+
+
+#onboard:hover  #QU {
+color: #FFF;
+border: 3px solid #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+#AC {
+position:absolute;
+width:100%;
+top:20%;
+left:0;
+font-size: 30px;
+}
+
+#LM {
+position:absolute;
+width:50%;
+top:60%;
+left:25%;
+font-size: 25px;
+color: transparent;
+font-family: 'Oswald', sans-serif;
+}
+
+#Adv1 {
+color:transparent;
+font-family: 'Oswald', sans-serif;
+}
+
+#Adv {
+width:15%;
+float:center;
+display:block;
+height:400px;
+background:url(http://oi68.tinypic.com/aax9vo.jpg) 50% 0 no-repeat;
+background-size:cover;
+position:relative;
+}
+
+#Adv:hover {
+background:url(http://s31.postimg.org/lgcrpgzwb/Untitled_1.png) 50% 0 no-repeat;
+background-size:cover;
+}
+
+#Adv:hover>#Adv1 {
+color:#FFF;
+}
+
+
+
+#Adv:hover  #LM {
+color: #FFF;
+border: 3px solid #FFF;
+}
