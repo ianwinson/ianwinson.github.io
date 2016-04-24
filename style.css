@@ -81,7 +81,7 @@ background-color:#FFF;
 background-color:#EDEEEF;
 font-family:'Open Sans', sans-serif;
 #abtbackground-color:#EDEEEF;
-padding-bottom: 610px;
+padding-bottom: 45vh;
 }
 
 #ABM {
@@ -191,10 +191,10 @@ font-family: 'Oswald', sans-serif;
 }
 
 #onboard {
-width:15%;
+width:25vh;
 float:center;
 display:block;
-height:600px;
+height:40vh;
 background:url(http://oi67.tinypic.com/2w50waa.jpg) 50% 0 no-repeat;
 background-size:cover;
 position:relative;
@@ -250,10 +250,10 @@ font-family: 'Oswald', sans-serif;
 }
 
 #Adv {
-width:15%;
+width:25vh;
 float:center;
 display:block;
-height:600px;
+height: 40vh;
 background:url(http://oi68.tinypic.com/aax9vo.jpg) 50% 0 no-repeat;
 background-size:cover;
 position:relative;
