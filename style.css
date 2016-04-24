@@ -81,6 +81,7 @@ background-color:#FFF;
 background-color:#EDEEEF;
 font-family:'Open Sans', sans-serif;
 #abtbackground-color:#EDEEEF;
+padding-bottom: 610px;
 }
 
 #ABM {
@@ -193,7 +194,7 @@ font-family: 'Oswald', sans-serif;
 width:15%;
 float:center;
 display:block;
-height:400px;
+height:600px;
 background:url(http://oi67.tinypic.com/2w50waa.jpg) 50% 0 no-repeat;
 background-size:cover;
 position:relative;
@@ -252,7 +253,7 @@ font-family: 'Oswald', sans-serif;
 width:15%;
 float:center;
 display:block;
-height:400px;
+height:600px;
 background:url(http://oi68.tinypic.com/aax9vo.jpg) 50% 0 no-repeat;
 background-size:cover;
 position:relative;
@@ -272,4 +273,12 @@ color:#FFF;
 #Adv:hover  #LM {
 color: #FFF;
 border: 3px solid #FFF;
+}
+#onboard{
+  float: left;
+left: 30%;
+}
+#Adv{
+  float: right;
+  right: 30%;
 }
